@@ -16,17 +16,21 @@ footer {
         gap: 8px;
         align-items: center;    
 
-        li {            
-            &:first-child {
-                font-size: 12px;
-                line-height: 18px;
-                font-weight: 400;
-                color: rgb(119, 119, 119);
-            }
+        .github-inc {
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 400;
+            color: rgb(119, 119, 119);
+        }
 
-            a {        
+        li {            
+            a {
+                &:hover{
+                    color: #156CC2;
+                }
+
                 text-decoration: none;
-                color: rgb(21, 108, 194);
+                color: #4183C4;
                 font-size: 12px;
                 line-height: 18px;
                 font-weight: 400;
@@ -40,10 +44,6 @@ footer {
     width: 100%;
     background-color: #e2e8f0;
 }
-
-// @media screen and (min-width: 576px) {
-    
-// }
 
 @media screen  and (max-width: 576px) {
     footer {

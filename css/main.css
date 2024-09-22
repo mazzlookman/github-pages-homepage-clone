@@ -220,8 +220,11 @@ header .images-slide img {
   margin: 32px 0;
 }
 .next-steps .steps li h4 a {
-  color: #327FC7;
+  color: #4183C4;
   text-decoration: none;
+}
+.next-steps .steps li h4 a:hover {
+  color: #156CC2;
 }
 .next-steps .steps li p {
   font-size: 14px;
@@ -231,7 +234,10 @@ header .images-slide img {
 }
 .next-steps .steps li p a {
   text-decoration: none;
-  color: #327FC7;
+  color: #4183C4;
+}
+.next-steps .steps li p a:hover {
+  color: #156CC2;
 }
 .next-steps h1 {
   font-size: 48px;
@@ -285,7 +291,7 @@ footer {
   gap: 8px;
   align-items: center;
 }
-.links ul li:first-child {
+.links ul .github-inc {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -293,10 +299,13 @@ footer {
 }
 .links ul li a {
   text-decoration: none;
-  color: rgb(21, 108, 194);
+  color: #4183C4;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+}
+.links ul li a:hover {
+  color: #156CC2;
 }
 
 .footer-separated {

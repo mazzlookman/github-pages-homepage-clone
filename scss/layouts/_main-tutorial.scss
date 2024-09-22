@@ -172,8 +172,12 @@
                 margin: 32px 0;
     
                 a {
-                    color: #327FC7;
+                    color: #4183C4;
                     text-decoration: none;
+
+                    &:hover {
+                        color: #156CC2;
+                    }
                 }
             }
     
@@ -185,7 +189,11 @@
     
                 a {
                     text-decoration: none;
-                    color: #327FC7;
+                    color: #4183C4;
+
+                    &:hover {
+                        color: #156CC2;
+                    }
                 }
             }
         }

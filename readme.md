@@ -7,15 +7,15 @@ Already responsive for greater than equal to "small" screen sizes `>=576px`.
 <u>[Click here for Demo](https://github-pages-homepage-clone.vercel.app/)</u>
 
 ## Sections:
-#### Header:
+### Header:
 ![header](assets/img/screenshots/ss-1.png)
 
-#### Main section:
+### Main section:
 ![main-1](assets/img/screenshots/ss-2.png)
 
 ![main-2](assets/img/screenshots/ss-3.png)
 
 ![main-3](assets/img/screenshots/ss-4.png)
 
-#### Footer:
+### Footer:
 ![footer](assets/img/screenshots/ss-5.png)
