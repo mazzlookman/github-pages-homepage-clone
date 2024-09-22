@@ -3,9 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Github Pages Clone</title>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="/"><img src="https://pages.github.com/images/logo.svg" alt="Github Pages" class="github-logo" /></a>
+
+        <h1>Websites for you and your projects.</h1>
+        <h2>Hosted directly from your <a href="https://github.com">GitHub repository</a>. Just edit, push, and your changes are live.</h2>
+
+        <a href="https://help.github.com/pages/" class="page-help">Pages Help</a>
+
+        <div class="images-slide">            
+            <img src="https://pages.github.com/images/slideshow/bootstrap.png" alt="Boostrap" class="slide" />
+            <!-- <img src="https://pages.github.com/images/slideshow/yeoman.png" alt="Yeoman" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/facebookdesign.png" alt="facebookdesign" class="slide active" width="893" />
+            <img src="https://pages.github.com/images/slideshow/foundation.png" alt="foundation" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/ghtraining.png" alt="ghtraining" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/adobeos.png" alt="adobeos" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/jekyllrb.png" alt="jekyllrb" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/electron.png" alt="electron" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/semanticui.png" alt="semanticui" class="slide" width="893" />
+            <img src="https://pages.github.com/images/slideshow/microsoft.png" alt="microsoft" class="slide" width="893" /> -->
+        </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <!-- Tutorial -->
+    <section class="tutorial" id="tutorial">
+        <div class="container">
+            <h1>Ready to get started? Build your own site from scratch or generate one for your project.</h1>
+        <h2>You get one site per GitHub account and organization, <br />and unlimited project sites. Let‘s get started.</h2>
+
+        <ul class="tabs">
+            <li><a href="#user-site" class="tab active">User or organization site</a></li>
+            <li><a href="#project-site" class="tab">Project site</a></li>
+        </ul>
+
+        <!-- ### Start of tutorials -->
+        <ul id="user-site" class="tutorial-list">
+            <li id="create-repo" class="create-repo">
+                <div class="repo-text">
+                    <span>1</span>
+                    <h4>Create a repository</h4>
+                    <p class="description">Head over to <a href="https://github.com">GitHub</a> and <a data-proofer-ignore="true" href="https://github.com/new">create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+
+                    <p class="details">If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</p>
+                </div>
+                
+                <div class="repo-image">
+                    <img src="https://pages.github.com/images/slideshow/yeoman.png" alt="repo-image" />
+                </div>
+            </li>
+
+            <li id="question" class="question steps">
+                <span>?</span>
+                <h4>What git client are you using?</h4>                
+                <ul class="tabs">
+                    <li><a id="option-terminal" href="#terminal-step-1" class="tab active">A terminal</a></li>
+                    <li><a id="option-desktop" href="#setup-in-desktop" class="tab">GitHub Desktop</a></li>
+                    <li><a id="option-newuser" href="#new-user-step-1" class="tab">I don't know</a></li>
+                </ul>
+            </li>
+
+            <li id="clone-repo" class="steps clone-repo">
+                <span>2</span>
+                <h4>Clone the repository</h4>
+                <p>Go to the folder where you want to store your project, and clone the new repository:</p>
+                <img src="assets/img/clone.png" alt="git-clone">
+            </li>
+
+            <li id="hello-world" class="steps hello-world">
+                <span>3</span>
+                <h4>Hello World</h4>
+                <p>Enter the project folder and add an index.html file:</p>
+                <img src="assets/img/hello-world.png" alt="git-clone">
+            </li>
+
+            <li id="push-it" class="steps push-it">
+                <span>4</span>
+                <h4>Push it</h4>
+                <p>Add, commit, and push your changes:</p>
+                <img src="assets/img/push-it.png" alt="git-clone">
+            </li>
+
+            <li id="done" class="steps done">
+                <span>5</span>
+                <h4>…and you're done!</h4>
+                <p>Fire up a browser and go to https://username.github.io.</p>
+                <img src="assets/img/check-circle.svg" alt="git-clone" width="100px" height="100px" />
+            </li>
+        </ul>
+        </div>
+    </section>
+
+    <!-- Next steps -->
+    <section class="next-steps" id="next-steps">
+        <div class="container">
+            <h1>Now that you’re up and running, here are a few things you should know.</h1>
+            <ul class="steps">
+                <li class="jekyll">
+                    <a class="hero-octicon" href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#327FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        </span>
+                    </a>
+                    <h4><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">Blogging with Jekyll</a></h4>
+                    <p>Using <a href="https://jekyllrb.com">Jekyll</a>, you can blog using beautiful Markdown syntax, and without having to deal with any databases. <a href="https://jekyllrb.com/docs/">Learn how to set up Jekyll</a>.</p>
+                </li>
+                <li class="custom-urls">
+                    <a class="hero-octicon" href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#327FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                      </span>
+                    </a>
+                    <h4><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">Custom URLs</a></h4>
+                    <p>Want to use your own custom domain for a GitHub Pages site? Just create a file named CNAME  and include your URL. <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">Read more</a>.</p>
+                </li>
+                <li class="guides">
+                    <a class="hero-octicon" href="https://docs.github.com/pages">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#327FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                      </span>
+                    </a>
+                    <h4><a href="https://docs.github.com/pages">Guides</a></h4>
+                    <p>Learn how to create custom 404 pages, use submodules, and <a href="https://docs.github.com/pages">learn more about GitHub Pages</a>.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container footer-separated"></div>
+    <!-- Footer -->
+     <footer class="footer" id="footer">
+        <div class="container links">
+            <ul class="right">
+                <li><a href="https://www.githubstatus.com/">Status</a></li>
+                <li><a href="https://docs.github.com/rest">API</a></li>
+                <li><a href="https://training.github.com">Training</a></li>
+                <li><a href="https://shop.github.com">Shop</a></li>
+                <li><a href="https://github.blog">Blog</a></li>
+                <li><a href="https://github.com/about">About</a></li>
+            </ul>
+            
+            <ul class="middle">
+                <li>
+                    <a href="/">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="left">
+                <li>&copy; 2024 <span>GitHub</span>, Inc.</li>
+                <li><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a></li>
+                <li><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement">Privacy</a></li>
+                <li><a href="https://github.com/security">Security</a></li>
+                <li><a href="https://support.github.com">Contact</a></li>
+            </ul>
+        </div>
+     </footer>
 </body>
 </html>
+
+<!-- <div class="tab-content active" id="user-content">
+    <ul>
+        <li id="create-repo" class="create-repo">
+            <h4>Create a repository</h4>
+            <p>Head over to <a href="https://github.com">GitHub</a> and <a data-proofer-ignore="true" href="https://github.com/new">create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+      
+            <p class="details">If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</p>
+          </li>
+    </ul>
+</div> -->
