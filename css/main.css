@@ -102,16 +102,19 @@ header .images-slide img {
   list-style: none;
   display: flex;
   justify-content: center;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 6px;
   overflow: hidden;
   padding: 0;
   margin: 32px auto;
   width: fit-content;
 }
 .tutorial .tab {
+  border-right: 1px solid #ccc;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 20px;
   cursor: pointer;
   text-decoration: none;
   color: #333;
@@ -148,6 +151,7 @@ header .images-slide img {
 .tutorial .create-repo {
   position: relative;
   display: flex;
+  align-items: center;
   gap: 24px;
   background-color: white;
   color: rgb(51, 51, 51);
@@ -155,6 +159,9 @@ header .images-slide img {
   padding: 32px 24px;
   border: 1px solid #ccc;
   margin-top: 64px;
+}
+.tutorial .create-repo .repo-text {
+  flex-basis: 100%;
 }
 .tutorial .create-repo .repo-text .description {
   font-weight: 300;
@@ -171,9 +178,11 @@ header .images-slide img {
   font-size: 14px;
   line-height: 24;
 }
+.tutorial .create-repo .repo-image {
+  flex-basis: 100%;
+}
 .tutorial .create-repo .repo-image img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
 }
 .tutorial .steps {
   margin-top: 64px;
